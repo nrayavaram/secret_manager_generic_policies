@@ -3,7 +3,7 @@ provider "google" {
 }
 
 resource "google_secret_manager_secret" "secret-basic" {
-  secret_id = "secret-wf-google-tf"
+  secret_id = "secret-wf-google-tf2"
   project      = "manifest-access-320809"
 
   labels = {
